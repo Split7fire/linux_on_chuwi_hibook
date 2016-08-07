@@ -17,3 +17,4 @@ Notes about running Linux on Chuwi Hibook tablet
 5. Light sensor
 6. Buttons & led
 7. Bluetooth
+8. Hotkeys
