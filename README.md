@@ -15,7 +15,8 @@ Notes about running Linux on Chuwi Hibook tablet
 3. Power controller
 4. Accelerometer
 5. Light sensor
-6. Buttons & led
-7. Bluetooth
-8. Hotkeys
-9. SD card
+6. Audio card (Intel SST)
+7. Buttons & led
+8. Bluetooth
+9. Hotkeys
+10. SD card
