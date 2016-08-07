@@ -1,4 +1,4 @@
-# linux_on_chuwi_hibook
+# Linux on chuwi Hibook
 Notes about running Linux on Chuwi Hibook tablet
 
 **Working:**
