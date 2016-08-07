@@ -18,3 +18,4 @@ Notes about running Linux on Chuwi Hibook tablet
 6. Buttons & led
 7. Bluetooth
 8. Hotkeys
+9. SD card
