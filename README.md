@@ -7,16 +7,15 @@ Notes about running Linux on Chuwi Hibook tablet
 2. Dock keyboard + touchpad
 3. Internal USB connectors
 4. Internal memory
+5. Buttons: volume, power (as of kernel 4.12)
+6. Wi-Fi & bluetooth (as of 4.12 kernel module in mainline kernel) !!! Firmware needed
+7. Power Controller AXP208 (As of 4.12 - needs enabling in config)
+8. Touchscreen GSL3680 with out-of-tree driver (https://github.com/onitake/gslx680-acpi). !!! Firmware needed (https://github.com/onitake/gsl-firmware/tree/master/firmware/chuwi/hibook && https://github.com/Split7fire/gsl-firmware)
 
 **Not working/ Not tested:**
 
-1. Wi-Fi (needs out-of-tree patches https://github.com/hadess/rtl8723bs)
-2. Touchscreen (possible https://github.com/onitake/gslx680-acpi)
-3. Power controller
-4. Accelerometer
-5. Light sensor
-6. Audio card (Intel SST)
-7. Buttons & led
-8. Bluetooth
-9. Hotkeys
-10. SD card
+1. Accelerometer
+2. Light sensor
+3. Audio card (Intel SST)
+4. Hotkeys
+5. SD card
