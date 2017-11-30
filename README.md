@@ -1,21 +1,22 @@
 # Linux on Chuwi Hibook
-Notes about running Linux on Chuwi Hibook tablet
+Notes about running Linux on Chuwi Hibook tablet on Fedora 27.
 
 **Working:**
 
-1. Video (Intel 8 gen)
+1. Video (Intel 8 gen) (Performance tip: in BIOS enable gfx boost)
 2. Dock keyboard + touchpad
 3. Internal USB connectors
 4. Internal memory
-5. Buttons: volume, power (as of kernel 4.12)
-6. Wi-Fi (as of 4.13 kernel module in mainline kernel (Ubuntu Budgie 17.10)) No additional firmware needed. 
-7. Power Controller AXP208 (As of 4.13 - enabled out-of-the-box)
-8. Touchscreen GSL3680 with out-of-tree driver (https://github.com/onitake/gslx680-acpi). !!! Firmware needed (https://github.com/onitake/gsl-firmware/tree/master/firmware/chuwi/hibook && https://github.com/Split7fire/gsl-firmware)
-9. Accelerometer (as of 4.12.rc6 - need configuration)
+5. Buttons: volume, power
+6. Wi-Fi
+7. Power Controller AXP208
+8. Touchscreen GSL3680 with mainline driver (WIP mainline conf)
+9. Accelerometer (working, need configuration. Needed configuration changes mainlined: https://github.com/systemd/systemd/pull/7483)
+10. Audio Card (internal headphones works out-of-box, loudspeakers don't)
+11. Bluetooth (working with systemd service files)
+
 
 **Not working/ Not tested:**
 
 1. Light sensor
-2. Audio card (ALC 5651)
-3. SD card
-4. Bluetooth (possibly service file needed)
+2. SD card
