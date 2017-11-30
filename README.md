@@ -20,3 +20,4 @@ Notes about running Linux on Chuwi Hibook tablet on Fedora 27.
 
 1. Light sensor
 2. SD card
+3. WebCams (Front/Back)
